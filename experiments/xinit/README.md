@@ -24,3 +24,7 @@ exec /etc/alternatives/x-window-manager
 # next line.
 # exec gnome-session
 ```
+
+```
+xinit chromium-browser $* -- :0 vt$XDG_VTNR
+```
